@@ -1,0 +1,9 @@
+#!r6rs ; -*- mode: scheme; coding: utf-8 -*-
+(import (akku format manifest))
+
+(akku-package ("(Chez SOOP)" "1.0.0-alpha.0")
+              (synopsis "SOOP Library fork from Chez Repository")
+              (authors "Oscar Waddell and R. Kent Dybvig")
+              (license "Apache-2.0")
+              (depends ("chez-srfi" ">=0.0.0-akku <1.0.0"))
+              )
